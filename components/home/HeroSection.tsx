@@ -68,7 +68,7 @@ export default function HeroSection() {
           </p>
 
           {/* CTAs */}
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
             <a
               href="/tours"
               className="bg-white text-black px-9 py-4 rounded-full 
@@ -84,7 +84,14 @@ export default function HeroSection() {
             >
               View Prints
             </a>
-          </div>
+          </div> */}
+{/* Scroll Indicator */}
+<div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/80 flex flex-col items-center gap-2 animate-bounce">
+ <span className="text-[10px] tracking-[0.35em] uppercase text-white/70 mb-3">
+    Discover
+  </span>
+  <span className="text-xl">↓</span>
+</div>
 
         </div>
       </div>
